@@ -1,0 +1,185 @@
+https://code.visualstudio.com/ > Install
+https://nodejs.org/en > Install
+https://git-scm.com/downloads > Install
+https://github.com/ > Signup
+https://github.com/Aakashdeveloper > Follow
+
+///Extension
+> code spell checker
+> githistory
+> gitlens
+> tabnine
+> vscode-icons
+
+// Add to chrome
+https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh
+
+Npm
+/////////////////
+FullStack Zomato app
+Template Forms
+Reactive Forms
+Login logout (jwt)
+Dummy api
+Deployment
+> Angular over node server
+> Angular over python server
+> Netlify(https://www.netlify.com/)
+> Github
+> Render.com
+> AWS
+> Jenkins
+> nginx
+> Docker 
+> Github Actions
+LazyLoading
+Testing
+Zomato+login logout
+Payment
+//////////////////////
+Ang Material
+Multilingual
+Zomato + Google Login
+
+>>>>>>>>NO Covered<<<<<>>>>>
+> HTML CSS JAVASCRIPT
+> No Api Building (app,loginlogout)
+
+Angular is a frontend framework that help to build single page application
+using component base structure
+
+//open source
+
+
+JSON
+Javascript Object Notation
+[
+    {
+        "name":"Nikita",
+        "city":"Paris"
+    },
+    {
+        "name":"Aman",
+        "city":"Delhi"
+    }
+]
+
+////////////////////////
+package.json
+> Entry point to app
+> Name,version,description
+> Package in the application
+> Script(Start,build,test)
+
+///Step to generate package.json
+** NodeJs must be installed in laptop
+> open cmd/terminal and go inside the folder
+> npm init
+> Answer all questions
+> Type "yes"
+
+
+///Step to install any package
+(local)
+> open cmd/terminal and go inside the folder
+> npm i packagename
+> npm i packagename@1.6.4
+
+///Global dependency
+> Install in laptop c drive
+> will not added in package.json
+> only require for generate application
+> Require admin permission to install 
+
+# windows
+> open cmd as admin
+> npm i -g packagename
+
+# Mac/linuc
+> open terminal
+> sudo npm i -g packagename
+
+// Step to generate angular app
+* One time
+> open cmd as admin
+> npm i -g @angular/cli
+
+// Every time you need new angular app
+> open cmd/terminal
+> go inside the folder where you want app
+> ng new appname
+
+
+// Step to run the application
+> open cmd/terminal
+> go inside the folder where you want app
+> npm start
+
+
+
+/// FileWalkthrough
+package.json > Main file and entry point to the app
+package-lock.json > Dependency tree
+node_module > contains all the packages
+.gitignore > thing we don't want to push to git
+ReadMe.md > Static file only details description
+
+tsconfig.json > Provide application which JS version to target and where build be made
+tsconfig.spec.json > test file for tsconfig.json
+tsconfig.app.json > will run for transpile using tsconfig.json configuration
+
+karma.config.js > Test configuration
+angular.json
+        > Main Configuration File
+        > Any Common CSS, JS, start file
+.editorconfig > To make development evn same for all developers
+.browserlistrc > supported browser
+
+>>>>>>Src
+app > main folder in which all development will happen
+assets> static files like images will be there
+env > configurate env acc to devleper
+favicon > icon apper in title bar of app
+index.html > main html file that will load in browser
+main.ts > main ts filde or first .ts file run in application
+polyfills > making app compatible for IE/edge
+style.css > common css for whole appplication
+test.ts > this file is required by karma.conf.js
+
+//////// Follow Application ///////
+Package.json > angular.json > main.ts > app.module.ts > app.component.ts
+                    || 
+                    \/
+                index.html (this file will load in browser)
+
+
+//upgrade guide
+https://update.angular.io/?l=3&v=9.1-15.0
+
+https://blog.angular.io/
+
+///////////Angular Build Block////////
+> Module
+# ngModule
+* Parent of the application
+* All Declaration will happen here
+
+> Component
+# component
+* html ,css and logics of app
+
+> Pipes
+# pipe & pipetransform
+* Run time data manipulation
+
+> Services
+# injectable
+* To connect with external links
+* Dependency Injection
+
+> Routing
+# ngModule
+* To navigate between the page
+* To Control access of the application
+
+ng g c componentname
